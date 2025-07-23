@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+@font-face {
+   font-family: 'Android';
+src: url("/pacote-projeto-d010/fontes/idroid.otf");
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    background-color: #ebe5c5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+
+header {
+    color: white;
+    background-image: linear-gradient(#2fa866, #063d1e); 
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    padding-top: 40px;
+    font-family: "Bebas Neue", cursive;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    padding-bottom: 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+header nav ul li a {
+    color: #83e1ad;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    transition-duration: 0.5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: #2fa866;
+    color: #063d1e;
+}
+
+/* Main Content Styles */
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+main h1 {
+    color: #063d1e;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-family: "android", sans-serif;
+}
+
+main p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+main h2 {
+    padding-left: 5px;
+    color: #1a5c37;
+    font-family: "android", sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #83e1ad, transparent);
+}
+
+main img {
+    width: 100%;
+    padding: 1em;
+}
+
+.droid {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+strong {
+    color: #1a5c37;
+}
+
+main a {
+    color: #063d1e;
+    text-decoration: none;
+    background-color: #83e1ad;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+div.video {
+    background-color: #063d1e;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 24px 50px; /* space above and below the video */
+}
+
+div.video-inner {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+div.video-inner iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+main .more {
+    background-color: #83e1ad;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+main .more h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #063d1e;
+    padding: 10px;
+    margin: auto;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+main .more p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    padding: 0px 10px 10px 10px;
+    font-size: 1em;
+}
+
+main .more ul {
+    list-style-position: inside;
+    columns: 2;
+    padding: 0 10px 1em 10px;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+footer {
+    background-color: #063d1e;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    color:#83e1ad;
+}
